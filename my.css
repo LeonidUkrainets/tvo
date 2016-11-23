@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica;
+  padding: 1em;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: hsla(268, 95%, 35%, 1);
+}
+
+.skillset {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.kazky {
+  background-color: hsla(47, 95%, 65%, 1);
+}
+
+.virshi {
+  background-color: hsla(85, 95%, 45%, 1);
+}
+
+.statti {
+  background-color: hsla(185, 95%, 55%, 1);
+}
+
+.kazky,
+.virshi,
+.statti  {
+  width: 100%;
+  padding: 1em 2em 2em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+}
+
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: hsla(268, 95%, 35%, 1);
+  color: whitesmoke;
+}
+
