@@ -9,6 +9,9 @@ h1 {
   text-align: center;
   color: hsla(268, 95%, 35%, 1);
 }
+  h3 {
+  font-size: 2em;  
+}
 
 .skillset {
   display: flex;
